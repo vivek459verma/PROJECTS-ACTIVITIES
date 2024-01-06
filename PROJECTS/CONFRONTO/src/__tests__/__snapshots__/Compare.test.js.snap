@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Assignment - Confronto - Compare Component Compare component works properly 1`] = `
+<Memo()>
+  <div
+    className="comparison-grid"
+  >
+    <div
+      className="feature-labels"
+    >
+      <div />
+      <div>
+        Brand
+      </div>
+      <div>
+        Model
+      </div>
+      <div>
+        Rear Camera
+      </div>
+      <div>
+        Front Camera
+      </div>
+      <div>
+        Screen
+      </div>
+      <div>
+        Storage
+      </div>
+      <div>
+        OS
+      </div>
+      <div>
+        Cost
+      </div>
+    </div>
+    <div
+      className="product-table"
+    >
+      <div
+        className="product-features"
+        key="B07XVLW7YK"
+      >
+        <div>
+          <img
+            alt=""
+            src="honor20.jpg"
+          />
+        </div>
+        <div>
+          Apple
+        </div>
+        <div>
+          iPhone 11 (128GB) - Black
+        </div>
+        <div>
+          12MP ultra wide & wide cameras
+        </div>
+        <div>
+          12MP TrueDepth camera
+        </div>
+        <div>
+          6.1-inch liquid Retina HD
+        </div>
+        <div>
+          128gb
+        </div>
+        <div>
+          Apple iOS
+        </div>
+        <div>
+          $
+          858.21
+        </div>
+        <div>
+          <button
+            onClick={[Function]}
+          >
+            REMOVE
+          </button>
+        </div>
+      </div>
+      <div
+        className="product-features"
+        key="B07V7ZWFJB"
+      >
+        <div>
+          <img
+            alt=""
+            src="honor20.jpg"
+          />
+        </div>
+        <div>
+          Honor
+        </div>
+        <div>
+          Honor 20
+        </div>
+        <div>
+          48MP + 16MP + 2MP + 2MP
+        </div>
+        <div>
+          32MP
+        </div>
+        <div>
+          6.25inch FHD
+        </div>
+        <div>
+          128gb
+        </div>
+        <div>
+          Android v9
+        </div>
+        <div>
+          $
+          291.8
+        </div>
+        <div>
+          <button
+            onClick={[Function]}
+          >
+            REMOVE
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</Memo()>
+`;

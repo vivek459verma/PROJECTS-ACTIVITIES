@@ -1,0 +1,36 @@
+.post-item {
+  min-width: 50%;
+  margin-bottom: 15px;
+  background-color: #f5f5f5;
+  padding: 25px;
+  border-radius: 8px;
+}
+
+.info-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.flag {
+  width: 150px;
+}
+
+.title {
+  font-family: "Open sans";
+  color: #1b1b1b;
+  margin-top: 0px;
+}
+
+.tags {
+  font-family: "Open sans";
+  color: #1b1b1b;
+  font-style: italic;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  color: #00bfff;
+}

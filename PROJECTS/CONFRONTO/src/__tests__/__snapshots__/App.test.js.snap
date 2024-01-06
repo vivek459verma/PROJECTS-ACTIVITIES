@@ -1,0 +1,349 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Assignment - Confronto - App Component App loads initial data using Async functions & Reducers 1`] = `
+<Memo()>
+  <div
+    className="confronto-app"
+  >
+    <h1>
+      Confronto
+    </h1>
+    <div
+      className="navigation"
+    >
+      <Link
+        to="/"
+      >
+        <LinkAnchor
+          href="/"
+          navigate={[Function]}
+        >
+          <a
+            href="/"
+            onClick={[Function]}
+          >
+            Catalog
+          </a>
+        </LinkAnchor>
+      </Link>
+      <Link
+        className={null}
+        to="/compare"
+      >
+        <LinkAnchor
+          className={null}
+          href="/compare"
+          navigate={[Function]}
+        >
+          <a
+            className={null}
+            href="/compare"
+            onClick={[Function]}
+          >
+            Compare (
+            0
+            )
+          </a>
+        </LinkAnchor>
+      </Link>
+    </div>
+    <div
+      className="content"
+    >
+      <Switch>
+        <Route
+          computedMatch={
+            Object {
+              "isExact": true,
+              "params": Object {},
+              "path": "/",
+              "url": "/",
+            }
+          }
+          exact={true}
+          location={
+            Object {
+              "hash": "",
+              "pathname": "/",
+              "search": "",
+              "state": undefined,
+            }
+          }
+          path="/"
+        >
+          <Memo()>
+            <div
+              className="products"
+            >
+              <ProductCard
+                brand="Honor"
+                id="B07V7ZWFJB"
+                image="honor20.jpg"
+                key="B07V7ZWFJB"
+                model="Honor 20"
+              >
+                <div
+                  className="product-card"
+                >
+                  <img
+                    alt="Honor 20"
+                    onClick={[Function]}
+                    src="honor20.jpg"
+                  />
+                  <p>
+                    Honor
+                  </p>
+                  <h3>
+                    Honor 20
+                  </h3>
+                  <button
+                    onClick={[Function]}
+                  >
+                    Add to Compare
+                  </button>
+                </div>
+              </ProductCard>
+              <ProductCard
+                brand="Apple"
+                id="B07XVLW7YK"
+                image="iphone11.jpg"
+                key="B07XVLW7YK"
+                model="iPhone 11 (128GB) - Black"
+              >
+                <div
+                  className="product-card"
+                >
+                  <img
+                    alt="iPhone 11 (128GB) - Black"
+                    onClick={[Function]}
+                    src="iphone11.jpg"
+                  />
+                  <p>
+                    Apple
+                  </p>
+                  <h3>
+                    iPhone 11 (128GB) - Black
+                  </h3>
+                  <button
+                    onClick={[Function]}
+                  >
+                    Add to Compare
+                  </button>
+                </div>
+              </ProductCard>
+            </div>
+          </Memo()>
+        </Route>
+      </Switch>
+    </div>
+  </div>
+</Memo()>
+`;
+
+exports[`Assignment - Confronto - App Component Clicking on Compare button navigates to Compare page 1`] = `
+<Memo()>
+  <div
+    className="confronto-app"
+  >
+    <h1>
+      Confronto
+    </h1>
+    <div
+      className="navigation"
+    >
+      <Link
+        to="/"
+      >
+        <LinkAnchor
+          href="/"
+          navigate={[Function]}
+        >
+          <a
+            href="/"
+            onClick={[Function]}
+          >
+            Catalog
+          </a>
+        </LinkAnchor>
+      </Link>
+      <Link
+        className={null}
+        to="/compare"
+      >
+        <LinkAnchor
+          className={null}
+          href="/compare"
+          navigate={[Function]}
+        >
+          <a
+            className={null}
+            href="/compare"
+            onClick={[Function]}
+          >
+            Compare (
+            0
+            )
+          </a>
+        </LinkAnchor>
+      </Link>
+    </div>
+    <div
+      className="content"
+    >
+      <Switch>
+        <Route
+          computedMatch={
+            Object {
+              "isExact": true,
+              "params": Object {},
+              "path": "/compare",
+              "url": "/compare",
+            }
+          }
+          location={
+            Object {
+              "hash": "",
+              "pathname": "/compare",
+              "search": "",
+              "state": undefined,
+            }
+          }
+          path="/compare"
+        >
+          <Memo()>
+            <h1
+              className="no-items"
+            >
+              Nothing to compare
+            </h1>
+          </Memo()>
+        </Route>
+      </Switch>
+    </div>
+  </div>
+</Memo()>
+`;
+
+exports[`Assignment - Confronto - App Component Clicking on a phone navigates to the detail page 1`] = `
+<Memo()>
+  <div
+    className="confronto-app"
+  >
+    <h1>
+      Confronto
+    </h1>
+    <div
+      className="navigation"
+    >
+      <Link
+        to="/"
+      >
+        <LinkAnchor
+          href="/"
+          navigate={[Function]}
+        >
+          <a
+            href="/"
+            onClick={[Function]}
+          >
+            Catalog
+          </a>
+        </LinkAnchor>
+      </Link>
+      <Link
+        className={null}
+        to="/compare"
+      >
+        <LinkAnchor
+          className={null}
+          href="/compare"
+          navigate={[Function]}
+        >
+          <a
+            className={null}
+            href="/compare"
+            onClick={[Function]}
+          >
+            Compare (
+            0
+            )
+          </a>
+        </LinkAnchor>
+      </Link>
+    </div>
+    <div
+      className="content"
+    >
+      <Switch>
+        <Route
+          computedMatch={
+            Object {
+              "isExact": true,
+              "params": Object {
+                "id": "B07XVLW7YK",
+              },
+              "path": "/product/:id",
+              "url": "/product/B07XVLW7YK",
+            }
+          }
+          location={
+            Object {
+              "hash": "",
+              "pathname": "/product/B07XVLW7YK",
+              "search": "",
+              "state": undefined,
+            }
+          }
+          path="/product/:id"
+        >
+          <Memo()>
+            <div
+              className="product-details"
+            >
+              <h1>
+                iPhone 11 (128GB) - Black
+              </h1>
+              <h3>
+                by 
+                Apple
+              </h3>
+              <img
+                alt="iPhone 11 (128GB) - Black"
+                src="iphone11.jpg"
+              />
+              <ul
+                className="details"
+              >
+                <li>
+                  Rear Camera : 
+                  12MP ultra wide & wide cameras
+                </li>
+                <li>
+                  Front Camera : 
+                  12MP TrueDepth camera
+                </li>
+                <li>
+                  Screen : 
+                  6.1-inch liquid Retina HD
+                </li>
+                <li>
+                  Storage : 
+                  128gb
+                </li>
+                <li>
+                  Os : 
+                  Apple iOS
+                </li>
+                <li>
+                  Cost: $
+                  858.21
+                </li>
+              </ul>
+            </div>
+          </Memo()>
+        </Route>
+      </Switch>
+    </div>
+  </div>
+</Memo()>
+`;

@@ -1,0 +1,108 @@
+.bg-container {
+  background-image: url("https://images.unsplash.com/photo-1533090161767-e6ffed986c88?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+@media screen and (min-width: 768px) {
+  .bg-container {
+    background-image: url("https://images.unsplash.com/photo-1533090161767-e6ffed986c88?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80");
+  }
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 64px;
+}
+
+@media screen and (min-width: 992px) {
+  .content-container {
+    align-items: flex-start;
+    margin-left: 160px;
+  }
+}
+
+.title {
+  color: #333333;
+  font-family: "Roboto";
+  font-size: 36px;
+  font-weight: 500;
+  text-align: center;
+}
+
+@media screen and (min-width: 992px) {
+  .title {
+    font-size: 64px;
+    margin-left: 50px;
+  }
+}
+
+.stopwatch-con {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  width: 310px;
+  border-radius: 12px;
+  padding: 32px;
+  box-shadow: 0px 4px 40px rgba(23, 31, 70, 0.16);
+}
+
+.stopwatch-time {
+  color: #333333;
+  font-family: "Roboto";
+  font-size: 36px;
+  font-weight: 500;
+  margin-top: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .stopwatch-time {
+    font-size: 64px;
+  }
+}
+
+.timer-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.button {
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 4px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .button {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+}
+
+.start {
+  background-color: #1db05f;
+  margin-right: 24px;
+}
+
+.stop {
+  background-color: #ef0d36;
+  margin-right: 24px;
+}
+
+.reset {
+  background-color: #eaa800;
+}

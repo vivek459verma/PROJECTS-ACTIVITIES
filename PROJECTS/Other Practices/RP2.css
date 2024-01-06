@@ -1,0 +1,46 @@
+nav {
+    background: cornflowerblue;
+    color: white;
+  }
+  
+  .container-fluid {
+    padding-top: 0.6rem;
+  }
+  
+  body {
+    background: rgb(116, 127, 104);
+  }
+  
+  .hero {
+    display: flex;
+    padding: 2%;
+    gap: 2%;
+    background: cadetblue;
+    color: white;
+    flex-direction: column-reverse;
+  }
+  
+  .hero-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .hero-image-container {
+    height: 50%;
+    width: 80%;
+  }
+  
+  .hero-image-container img {
+    width: 100%;
+    height: 100%;
+  }
+
+  @media  (max-width: 775px) {
+
+    .hero{
+      display: flex;
+      flex-direction: row;
+    }
+  
+  }

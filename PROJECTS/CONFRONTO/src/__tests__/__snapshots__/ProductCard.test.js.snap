@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Assignment - Confronto - ProductCard Component ProductCard displays data from props 1`] = `
+<ProductCard
+  brand="Honor"
+  id="B07V7ZWFJB"
+  image="honor20.jpg"
+  model="Honor 20"
+>
+  <div
+    className="product-card"
+  >
+    <img
+      alt="Honor 20"
+      onClick={[Function]}
+      src="honor20.jpg"
+    />
+    <p>
+      Honor
+    </p>
+    <h3>
+      Honor 20
+    </h3>
+    <button
+      onClick={[Function]}
+    >
+      Add to Compare
+    </button>
+  </div>
+</ProductCard>
+`;

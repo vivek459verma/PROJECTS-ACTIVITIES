@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
+
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+html,
+body {
+  background-color: rgb(217, 247, 247);
+  margin: 0px;
+  padding: 0px;
+}
+
+#headerTitle {
+  text-align: center;
+  margin: 20px;
+  color: rgb(47, 47, 106);
+}
+
+#headerBar {
+  width: 8%;
+  margin: 0 auto;
+  border-top: 5px solid rgb(203, 203, 52);
+}
+
+#allButtons {
+  text-align: center;
+  margin: 20px;
+}
+.categoryButtons {
+  padding: 10px 30px;
+  margin-left: 10px;
+  font-size: 16px;
+  background-color: rgb(229, 198, 140);
+  border: 3px solid rgb(210, 163, 76);
+  border-radius: 15px;
+}
+
+.categoryButtons:hover {
+  cursor: pointer;
+  border: 3px solid rgb(47, 47, 106);
+}
+
+#allDishes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 25px;
+}
+.dish {
+  display: flex;
+  width: 700px;
+  height: 200px;
+  margin-bottom: 50px;
+}
+
+.dishInner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dish img {
+  width: 500px;
+  height: 100%;
+  margin-right: 20px;
+  border: 3px solid rgb(210, 163, 76);
+  border-radius: 10px;
+}
+
+.dishInner {
+  border-bottom: 2px dotted black;
+}
+
+.dishPrice {
+  color: rgb(210, 163, 76);
+}
+
+.dishName {
+  text-transform: capitalize;
+}
+
+#cartButtonContainer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+}
+.cartButton {
+  font-size: 20px;
+}
+
+.atcButton {
+  width: 200px;
+  padding: 10px;
+  border: 3px solid rgb(210, 163, 76);
+  background-color: rgb(229, 198, 140);
+  border-radius: 15px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.atcButton:hover {
+  cursor: pointer;
+  border: 3px solid rgb(47, 47, 106);
+}
+
+#cartTitle {
+  text-align: center;
+  margin: 20px;
+  color: rgb(47, 47, 106);
+}
+#cart {
+  display: flex;
+  flex-wrap: wrap;
+}
+#cart img {
+  width: 10%;
+}
+
+.cartDish {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.cartDish button {
+  height: 20px;
+}
+
+.cartDelete {
+  background-color: red;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  width: 100px;
+}
+.cartDelete:hover {
+  cursor: pointer;
+  background-color: rgb(160, 48, 48);
+}

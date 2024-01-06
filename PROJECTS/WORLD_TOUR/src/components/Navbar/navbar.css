@@ -1,0 +1,14 @@
+nav {
+  background-color: #00bfff;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.heading {
+  font-family: "Bree Serif";
+  color: white;
+  font-weight: bold;
+  font-size: 48px;
+  text-align: center;
+  margin: 0px;
+}
